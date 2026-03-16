@@ -1,3 +1,18 @@
+@font-face {
+  font-family: "Gilroy-Bold";
+  font-display: swap;
+  src: url(https://d1unjqcospf8gs.cloudfront.net/assets/Gilroy-Bold-76f01426d347c0a032cb7669f76f457dfe153f125b58f0ab76a71693796c6918.woff);
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  min-width: 980px;
+  height: 100%;
+  font-size: 62.5%;
+}
+
 /* header css */
 
 /* body css */
