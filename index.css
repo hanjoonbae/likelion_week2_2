@@ -2,4 +2,262 @@
 
 /* body css */
 
+/* body section */
+.body_main_section {
+  background-color: #f9f9f9;
+}
+
+.body_main_image {
+  width: 655px;
+  height: 750px;
+}
+
+.body_main_title {
+  font-size: 40px;
+  line-height: 55px;
+  margin: 10px 0px;
+}
+
+/*reference*/
+
+.body_home_main_section {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.body_service_title {
+  color: #ff6f0f;
+  font-size: 18px;
+  font-weight: 800;
+  margin: 0;
+}
+
+.body_service_comment {
+  color: #7c7c7c;
+  font-size: 20px;
+  line-height: 30px;
+  margin: 0;
+}
+
+.body_main_buttons {
+  margin-top: 30px;
+}
+
+.body_main_button {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+  background-color: #e9ecef;
+  border-radius: 6px;
+  padding: 12px;
+  display: inline-block;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.body_main_button:hover {
+  background-color: gainsboro;
+}
+
+.body_main_reverse {
+  flex-direction: row-reverse;
+}
+
+.body_main_story_list {
+  margin-top: 50px;
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+  padding: 0px;
+}
+
+.body_main_story_list_item {
+  margin-right: 5px;
+  margin-left: 0px;
+  width: 140px;
+}
+
+ul li {
+  margin: 5px;
+}
+
+.body_story_list_image {
+  width: 55px;
+}
+
+.body_story_title {
+  margin: 12px 0px 5px 0px;
+  font-size: 14px;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+.body_story_comment {
+  font-weight: 400;
+  font-size: 13px;
+  color: #7c7c7c;
+  line-height: 17px;
+}
+
 /* footer css */
+.footer_section1 {
+  padding: 4.8rem 0;
+  display: block;
+}
+.footer_menus {
+  display: flex;
+  max-width: 76.8rem;
+  font-size: 1.4rem;
+}
+.footer_menus_row {
+  display: flex;
+  flex-direction: column;
+  padding-inline-start: 0;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  width: 33%;
+  list-style-type: disc;
+}
+.footer_menus_item:not(:last-child) {
+  margin-bottom: 1.6rem;
+}
+.footer_menus_item {
+  width: fit-content;
+  list-style: none;
+  margin: 1.6rem;
+}
+.footer_menus_item a {
+  text-decoration: none;
+  outline: 0;
+  color: black;
+}
+.footer_menus_item a:hover {
+  text-decoration: underline;
+}
+.footer_download {
+  float: right;
+  margin-bottom: 0;
+  display: flex;
+  flex-direction: column;
+}
+.footer_download_text {
+  line-height: 1.4;
+  font-size: 1.4rem;
+  font-weight: 700;
+  padding-left: 5px;
+}
+.footer_download_buttons {
+  display: flex;
+}
+.footer_download_button {
+  display: block;
+  margin-top: 0.8rem;
+  text-decoration: none;
+  outline: 0;
+  display: flex;
+  color: black;
+  font-weight: 700;
+  font-size: 1.5rem;
+  padding: 0.4rem;
+  width: 147px;
+  height: 44px;
+}
+.ml {
+  margin-left: 1rem;
+}
+.footer_download_button div {
+  width: 100%;
+  padding: 5px;
+  border-radius: 10px;
+  background-color: #eaebee;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* footer section 2 */
+.footer_section2 {
+  border-top: 1px solid lightgray;
+  padding: 2.4rem 0 10rem;
+  position: relative;
+}
+.footer_info {
+  color: gray;
+  font-size: 1.3rem;
+}
+.footer_detailed {
+  line-height: 1.5;
+  margin-bottom: 1.6rem;
+}
+.footer_requests {
+  margin-bottom: 1.6rem;
+  display: block;
+}
+.footer_requests a {
+  margin-right: 1.6rem;
+  line-height: 1.5;
+  text-decoration: none;
+  outline: 0;
+  font-weight: 700;
+  color: gray;
+}
+.footer_requests a:hover {
+  text-decoration: underline;
+}
+.footer_icons {
+  margin-top: 0;
+  grid-column: 3/4;
+  grid-row: 1/2;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 2rem;
+  right: 0;
+}
+.footer_icon {
+  margin-right: 1.6rem;
+  text-decoration: none;
+  outline: 0;
+  color: gray;
+  font-size: 2rem;
+}
+.footer_language {
+  color: gray;
+  font-size: 2rem;
+  display: flex;
+  padding: 0.8rem;
+  border-radius: 0.4rem;
+  cursor: pointer;
+}
+.footer_language select {
+  color: gray;
+  background-color: white;
+  border: none;
+  text-indent: 0.1rem;
+  cursor: pointer;
+  -webkit-appearance: none;
+  padding-left: 0.5rem;
+}
+.footer_rules {
+  flex-wrap: wrap;
+  display: flex;
+  grid-column: 1/4;
+  font-size: 1.3rem;
+}
+.footer_rule {
+  margin-right: 1.6rem;
+  line-height: 1.5;
+}
+.footer_rule a {
+  line-height: 1.5;
+  text-decoration: none;
+  outline: 0;
+  font-weight: 700;
+  white-space: nowrap;
+  color: gray;
+}
+.footer_rule a:hover {
+  text-decoration: underline;
+}
